@@ -1,0 +1,16 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="Theme.AlperenChat" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+
+        <item name="colorPrimary">@color/primary</item>
+
+        <item name="android:statusBarColor" tools:targetApi="l">@color/primary</item>
+
+    </style>
+    <style name="Theme.AlperenChat.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    <style name="Theme.AlperenChat.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+    <style name="Theme.AlperenChat.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+</resources>
